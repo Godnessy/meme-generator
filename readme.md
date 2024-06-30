@@ -6,9 +6,13 @@ The Barkoni Meme Generator is a web application that allows users to create cust
 
 🔑 Key Features - 
 🧠 AI Character Detection: Utilizes YOLOv8 to detect the presence of Barkoni in uploaded images.
+
 ✍️ Custom Text: Allows users to add custom top and bottom text to the images.
+
 🖱️ Drag-and-Drop Text Positioning: Users can position the text freely on the image canvas.
+
 ⚡ Real-Time Feedback: Provides real-time feedback if the uploaded image does not contain Barkoni.
+
 ⏳ Spinner for API Call: Displays a loading spinner while the image is being processed by the detection API.
 
 🛠️ Technology Stack -
