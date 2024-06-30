@@ -3,8 +3,10 @@ Barkoni Meme Generator
 🌟 Project Overview - 
 
 The Barkoni Meme Generator is a web application that allows users to create custom memes by uploading images and adding text. The app leverages YOLOv8, a state-of-the-art AI object detection model, to identify specific characters (Barkoni) in user-uploaded images. If the character Barkoni is detected, the image is accepted for meme creation; otherwise, the upload is rejected. This ensures that the memes are generated only with images containing the desired character.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-🔑 Key Features - 
+🔑 Key Features -
+
 🧠 AI Character Detection: Utilizes YOLOv8 to detect the presence of Barkoni in uploaded images.
 
 ✍️ Custom Text: Allows users to add custom top and bottom text to the images.
@@ -16,6 +18,7 @@ The Barkoni Meme Generator is a web application that allows users to create cust
 ⏳ Spinner for API Call: Displays a loading spinner while the image is being processed by the detection API.
 
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 🛠️ Technology Stack -
 
 Frontend: React.js using Vite
@@ -25,6 +28,7 @@ Object Detection: YOLOv8 model hosted on Roboflow
 Styling: CSS for layout and styling
 
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 🚀 Usage -
 
 Upload Image: Users can upload an image using the file input.
@@ -36,6 +40,7 @@ Text Addition: If Barkoni is detected, users can add top and bottom text to the 
 Download/Copy Meme: Users can download the meme or copy it to the clipboard.
 
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 🛠️ Installation- 
 
 Clone the repository:
@@ -61,9 +66,11 @@ Build the application:
 sh
 npm run build
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 🤝 Contribution
 Feel free to submit issues and enhancement requests.
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 📜 License
 This project is licensed under the MIT License.
 
