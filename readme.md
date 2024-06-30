@@ -11,28 +11,28 @@ The Barkoni Meme Generator is a web application that allows users to create cust
 ⚡ Real-Time Feedback: Provides real-time feedback if the uploaded image does not contain Barkoni.
 ⏳ Spinner for API Call: Displays a loading spinner while the image is being processed by the detection API.
 
-🛠️ Technology Stack
+🛠️ Technology Stack -
+
 Frontend: React.js using Vite
 Object Detection: YOLOv8 model hosted on Roboflow
 Styling: CSS for layout and styling
 
-🚀 Usage
+🚀 Usage -
+
 Upload Image: Users can upload an image using the file input.
 Character Detection: The app checks if the uploaded image contains Barkoni using the YOLOv8 model.
 Text Addition: If Barkoni is detected, users can add top and bottom text to the image.
 Download/Copy Meme: Users can download the meme or copy it to the clipboard.
 
-🛠️ Installation
-Clone the repository:
+🛠️ Installation- 
 
+Clone the repository:
 sh
-Copy code
 $ git clone https://github.com/yourusername/barkoni-meme-generator.git
 cd barkoni-meme-generator
 Install dependencies:
 
 sh
-Copy code
 $ npm install
 Set up environment variables: Create a .env file in the root directory with the following:
 
@@ -43,12 +43,10 @@ VITE_APP_INF_API_KEY=your-api-key
 Run the application:
 
 sh
-Copy code
 npm run dev
 Build the application:
 
 sh
-Copy code
 npm run build
 
 🤝 Contribution
