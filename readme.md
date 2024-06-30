@@ -45,8 +45,10 @@ Download/Copy Meme: Users can download the meme or copy it to the clipboard.
 
 Clone the repository:
 sh
-$ git clone https://github.com/yourusername/barkoni-meme-generator.git
+$ git clone https://github.com/godnessy/barkoni-meme-generator.git
+
 cd barkoni-meme-generator
+
 Install dependencies:
 
 sh
