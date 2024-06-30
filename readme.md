@@ -57,15 +57,18 @@ Set up environment variables: Create a .env file in the root directory with the 
 
 env
 Copy into your .env file and set the vars:
+
 VITE_APP_INFERENCE_API_URL=https://detect.roboflow.com/your-model
+
 VITE_APP_INF_API_KEY=your-api-key
+
+
+
 Run the application:
 
-sh
 npm run dev
 Build the application:
 
-sh
 npm run build
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
