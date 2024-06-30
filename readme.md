@@ -1,0 +1,1 @@
+This is a generic meme generator, you can upload your own pics and allow people to create memes from them.
