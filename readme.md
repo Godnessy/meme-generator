@@ -53,6 +53,7 @@ Install dependencies:
 
 sh
 $ npm install
+
 Set up environment variables: Create a .env file in the root directory with the following:
 
 env
