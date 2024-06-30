@@ -90,6 +90,7 @@ function App() {
             <main className="container">
                 <TextInput onTextChange={handleTextChange} />
                 <MemeCanvas topText={topText} bottomText={bottomText} uploadedImage={uploadedImage} ref={canvasRef} />
+                <h2>Or upload your own:</h2>
                 <div className="upload-container">
                     <input type="file" onChange={handleFileChange}  accept="image/*" className="button" />
                 </div>
